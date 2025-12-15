@@ -1,6 +1,6 @@
 # Task Management System (CLI) — Python
 
-A simple **Python** project to manage tasks via the **terminal**, allowing you to **add**, **view**, **mark as completed**, and **remove** tasks through an interactive menu.
+A small task list with an interactive menu inside `main.ipynb`. It lets you add, list, complete and remove tasks; the list lives only in memory and is lost when the session ends.
 
 ## Features
 - Add a task (with description)
@@ -15,22 +15,9 @@ A simple **Python** project to manage tasks via the **terminal**, allowing you t
 - Python 3.x
 - CLI (Terminal)
 
-## How to Run
+## How to run
 
-### Option 1 — Run as a `.py` script (recommended)
-1. Create a file named `main.py` (or any name) and paste the project code.
-2. Run in the terminal:
-
-    python main.py
-
-> On some environments (Linux/macOS), you may need:
-
-    python3 main.py
-
-### Option 2 — Run in Jupyter Notebook (`.ipynb`)
-1. Open the notebook in Jupyter/VS Code
-2. Run the cells in order
-3. Execute the cell that calls `main()`
+Open `main.ipynb` in Jupyter or a compatible editor and run the cells in order, including the cell that calls `main()`. There is no separate `main.py` in this repository.
 
 ## Usage
 
@@ -60,7 +47,9 @@ Tasks are stored in memory (they are not persisted after the program ends) using
 - Unit tests
 
 ## License
-This project is under the MIT license. See the LICENSE file for more details.
+
+Original code and documentation are covered by [MIT](license).
+This project is under the MIT license. See the license file for more details.
 
 ---
 Made with ♥ by Rocketseat
